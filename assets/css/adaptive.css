@@ -1,0 +1,122 @@
+@media (max-width: 1100px) {
+    .header__nav {
+        order: 2;
+        width: 100%;
+        margin: 20px auto 0;
+        justify-content: space-between;
+    }
+
+
+
+
+    .intro__container {
+        flex-direction: column;
+    }
+    .intro__box {
+        margin: 70px auto 0;
+        padding: 30px;
+    }
+    .intro__img {
+        width: 95%;
+        max-width: 95%;
+    }
+
+
+    .product__slider-item {
+        min-width: calc(50% - 15px);
+    }
+}
+
+
+@media (max-width: 900px) {
+    .promo__container {
+        flex-direction: column;
+        align-items: start;
+    }
+    .promo__box {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .promo_img {
+        margin-top: 30px;
+        width: 95%;
+        max-width: 95%;
+    }
+
+    .product__slider-item {
+        min-width: 100%
+    }
+
+    .recomend__card {
+        width: 45%;
+        margin-right: 0;
+    }
+    .recomend__card:last-child {
+        margin: -40px auto 0;
+    }
+
+
+    .blog__container {
+        flex-direction: column;
+    }
+    .blog__box {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .blog__img {
+        width: 80%;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 670px) {
+    .container {
+        width: 95%;
+    }
+
+
+    .header__nav {
+        flex-direction: column;
+    }
+    .header__nav-item {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .header__nav-btn {
+        margin-bottom: 20px;
+    }
+    .header__logo {
+        margin-right: 0;
+        font-size: 30px;
+    }
+
+
+
+    .product__arrow {
+        transform: translateY(-65px);
+    }
+    #product__arrow2 {
+        transform: scaleX(-100%) translateY(-65px);
+    }
+
+
+
+    .recomend__card {
+        width: 100%;
+        margin-right: 0;
+    }
+    .recomend__card:last-child {
+        margin-top: 0px;
+    }
+    .recomend__card-title {
+        font-size: 30px;
+    }
+
+    .footer__socials,
+    .footer__pay {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .recomend__title {
+        font-size: 30px;
+    }
+}
